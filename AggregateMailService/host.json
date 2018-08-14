@@ -1,0 +1,10 @@
+{
+  // reference:: https://docs.microsoft.com/zh-tw/azure/azure-functions/functions-host-json
+  "queues": {
+    "maxPollingInterval": 5000,
+    "visibilityTimeout": "00:00:30",
+    "batchSize": 16,
+    "maxDequeueCount": 10,
+    "newBatchThreshold": 8
+  }
+}
